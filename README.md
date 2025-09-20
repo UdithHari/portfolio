@@ -1,30 +1,25 @@
-[![Watch tutorial here](https://img.youtube.com/vi/sUKptmUVIBM/0.jpg)](https://youtu.be/sUKptmUVIBM)
+# 🌐 Portfolio Website  
 
-# [Watch video here](https://youtu.be/sUKptmUVIBM)
+This is my personal **portfolio website** built with [Next.js](https://nextjs.org/), [React](https://react.dev/), and [Tailwind CSS](https://tailwindcss.com/).  
 
-## What you will learn
+---
 
-- Latest Next.js 13 features
-- Next.js App Router
-- Next.js Server Actions
-- Client & Server Components
-- TypeScript (Beginner & Intermediate)
-- Tailwind CSS
-- Context API
-- Advanced Animations with Framer Motion
-- React.Email & Resend
-- Custom React hooks
-- Fresh, modern UI design
-- Light & Dark mode
-- Responsive website
+## 🚀 Features  
+- Responsive design for all screen sizes  
+- Smooth animations with **Framer Motion**  
+- Contact form powered by **Resend API**  
+- Clean, modern UI built with **Tailwind CSS**  
 
-## Important
+---
 
-If you want to be a professional developer, you have to know the fundamentals like JavaScript and CSS really well. I highly recommend you go through my [Professional JavaScript](https://bytegrad.com/courses/professional-javascript) and [Professional CSS](https://bytegrad.com/courses/professional-css) courses.
+## 📂 Project Structure  
 
-I'm close to releasing a complete React & Next.js course. Get on the email list to receive early-bird pricing: [link](https://email.bytegrad.com/).
-
-## Setup
-
-1. Add RESEND_API_KEY environment variable in .env.local
-2. In the send-email.ts action file, change the "to" email to your own email
+```bash
+portfolio/
+│── actions/         # Server actions (e.g. sendEmail)
+│── components/      # Reusable React components
+│── public/          # Static assets (images, CV, etc.)
+│── styles/          # Global styles
+│── app/ or pages/   # Next.js routing (depending on version)
+│── package.json     # Project dependencies
+```
