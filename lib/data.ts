@@ -35,52 +35,37 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "SDE-1",
+    location: "UST -Trivandrum , Kerala",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a full stack developer.Developed software applications using React and Spring-Boot. Designed and implemented user interfaces using React to enhance user experience. Executed project planning and coordination to meet deadlines effectively ",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2025",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Intern",
+    location: "Tata Elxsi -Trivandrum , Kerala",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Supported the development and execution of a Proof of Concept (POC) related to rail and off-highway applications. Collaborated with cross-functional teams to troubleshoot and resolve technical issues.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "MoneyMaster",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "The project aims to help users manage their personal finances by tracking expenses, setting budgets, and providing useful insights into their spending habits.",
+    tags: ["Flutter","MongoDB"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Talent Recruitment Platform",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Recruitment platform streamlines hiring for recruiters and candidates. Efficiently manage job postings,candidate profiles, and assessments.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
   },
 ] as const;
 
@@ -91,17 +76,11 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+  "MySQL",
+  "Java",
+  "SpringBoot",
   "Python",
   "Django",
-  "Framer Motion",
 ] as const;
